@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Déclaration d’accessibilité — Global Inclusive Events</title>
+<meta content="Comment le site de Global Inclusive Events est rendu accessible, et comment signaler un obstacle." name="description"/>
+<link href="https://globalinclusiveevents.com/fr/accessibility/" rel="canonical"/><link href="https://globalinclusiveevents.com/accessibility/" hreflang="en" rel="alternate"/><link href="https://globalinclusiveevents.com/fr/accessibility/" hreflang="fr" rel="alternate"/><link href="https://globalinclusiveevents.com/ar/accessibility/" hreflang="ar" rel="alternate"/><link href="https://globalinclusiveevents.com/accessibility/" hreflang="x-default" rel="alternate"/>
+<meta content="website" property="og:type"/>
+<meta content="Global Inclusive Events" property="og:site_name"/>
+<meta content="Déclaration d’accessibilité — Global Inclusive Events" property="og:title"/>
+<meta content="Comment le site de Global Inclusive Events est rendu accessible, et comment signaler un obstacle." property="og:description"/>
+<meta content="https://globalinclusiveevents.com/fr/accessibility/" property="og:url"/><meta content="fr_FR" property="og:locale"/>
+<meta content="https://globalinclusiveevents.com/assets/og-image.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="#9B1C1C" name="theme-color"/>
+<link href="/favicon.ico" rel="icon" sizes="any"/>
+<link href="/assets/favicon-64.png" rel="icon" type="image/png"/>
+<link href="/favicon.ico" rel="icon" sizes="any"/>
+<link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/gie.css" rel="stylesheet"/>
+<script src="/assets/gie.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+<aside aria-label="Langue et outils d’accessibilité" class="a11y-bar">
+<div class="wrap">
+<nav aria-label="Choisir une langue" class="lang-switch"><a data-lang="en" href="/accessibility/" hreflang="en" lang="en"><span>EN</span></a><a aria-current="true" data-lang="fr" href="/fr/accessibility/" hreflang="fr" lang="fr"><span>FR</span></a><a data-lang="ar" href="/ar/accessibility/" hreflang="ar" lang="ar"><span>العربية</span></a></nav>
+<div class="a11y-tools">
+<button aria-pressed="false" class="tool-listen" data-listen="" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"></path><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path></svg><span class="tl-play">Écouter</span><span class="tl-stop">Arrêter</span></button>
+<button aria-controls="a11y-panel" aria-expanded="false" class="tool-open" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="12" cy="4.5" fill="currentColor" r="2"></circle><path d="M5 8.5l7 1.5 7-1.5M12 10v5m0 0l-3.5 6M12 15l3.5 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg>Accessibilité</button>
+</div>
+</div>
+<div class="a11y-panel" hidden="" id="a11y-panel">
+<div class="wrap">
+<div aria-labelledby="ap-size" class="ap-group" role="group"><p id="ap-size">Taille du texte</p>
+<button aria-label="Taille de texte normale" data-text-size="md" type="button">A</button><button aria-label="Texte plus grand" data-text-size="lg" type="button">A+</button><button aria-label="Texte très grand" data-text-size="xl" type="button">A++</button></div>
+<div aria-labelledby="ap-read" class="ap-group" role="group"><p id="ap-read">Lecture</p>
+<button data-toggle-class="dys" type="button">Police lisible</button><button data-toggle-class="ul" type="button">Souligner les liens</button></div>
+<div aria-labelledby="ap-see" class="ap-group" role="group"><p id="ap-see">Affichage</p>
+<button data-toggle-class="hc" type="button">Contraste élevé</button><button data-toggle-class="calm" type="button">Arrêter les animations</button><button data-toggle-class="lite" type="button">Mode léger (économise les données)</button></div>
+<p class="ap-note">Vos choix sont mémorisés sur cet appareil. « Écouter » lit la page à voix haute avec la voix de votre appareil.</p>
+</div>
+</div>
+</aside>
+<header class="site-head">
+<div class="wrap head-in">
+<a class="brand" href="/fr/"><img alt="" height="48" loading="lazy" src="/assets/logo-icon.png" width="48"/><span><b>Global <em>Inclusive</em> Events</b><small>Chaque voix compte</small></span></a>
+<button aria-controls="site-nav" aria-expanded="false" class="menu-toggle" type="button"><span class="bars"><span></span></span>Menu</button>
+<nav aria-label="Principal" class="nav" id="site-nav">
+<a href="/fr/">Accueil</a>
+<div class="dd">
+<button aria-expanded="false" class="" type="button">Programmes <svg aria-hidden="true" viewbox="0 0 10 10"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"></path></svg></button>
+<div class="dd-menu"><a href="/fr/programs/accessibility/"><b>Accessibilité</b><span>Des événements où les personnes en situation de handicap participent pleinement et dignement.</span></a><a href="/fr/programs/women-empowerment/"><b>Autonomisation des femmes</b><span>Des parcours toute l’année pour les femmes et les filles, au-delà d’une seule journée.</span></a><a href="/fr/programs/digital-inclusion/"><b>Inclusion numérique</b><span>Jeunes mentors et professionnels expérimentés apprennent ensemble le numérique et l’IA.</span></a></div>
+</div>
+<div class="dd">
+<button aria-expanded="false" class="" type="button">Apprendre <svg aria-hidden="true" viewbox="0 0 10 10"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"></path></svg></button>
+<div class="dd-menu"><a href="/fr/learn/#workshops"><b>Ateliers</b><span>Sessions pratiques, en présentiel</span></a><a href="/fr/learn/#online-conferences"><b>Conférences en ligne</b><span>Rendez-vous mensuels en direct, sous-titrés</span></a><a href="/fr/learn/#calendar"><b>Calendrier &amp; inscription</b><span>Prochaines sessions et alertes</span></a></div>
+</div>
+<a href="/fr/for-organizations/">Organisations</a>
+<a href="/fr/impact/">Impact</a>
+<a href="/fr/get-involved/">S’engager</a>
+<a class="btn btn-primary" href="/fr/contact/">Contact</a>
+</nav>
+</div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-hero"><div class="wrap narrow">
+<nav aria-label="Fil d’Ariane" class="crumbs"><a href="/fr/">Accueil</a> / <span aria-current="page">Déclaration d’accessibilité</span></nav>
+<p class="eyebrow">Accessibilité</p><h1>Déclaration d’accessibilité</h1>
+<p class="lead">Une organisation qui agit pour l’inclusion doit avoir un site que tout le monde peut utiliser. Voici ce que nous avons fait, et comment nous dire si quelque chose ne fonctionne pas pour vous.</p>
+</div></section>
+<section class="bg-white"><div class="wrap narrow">
+<h2>Notre objectif</h2>
+<p>Nous visons le respect des Règles pour l’accessibilité des contenus web (WCAG) 2.2, niveau AA, sur l’ensemble de ce site.</p>
+<h2>Ce que fait ce site</h2>
+<ul class="checks">
+<li>Des textes et des contrastes de couleurs conçus pour respecter le niveau WCAG AA</li>
+<li>Un menu « Accessibilité » en haut de chaque page : texte plus grand, police plus lisible avec plus d’espacement, contraste élevé, liens soulignés, animations arrêtées et un mode léger qui économise les données mobiles en masquant les photos</li>
+<li>Un bouton « Écouter » qui lit la page à voix haute avec la voix de votre appareil</li>
+<li>Le site en trois langues : anglais, français et arabe</li>
+<li>Un court résumé « En mots simples » en haut des pages principales</li>
+<li>Un contact par WhatsApp, téléphone ou e-mail, selon ce qui vous convient le mieux</li>
+<li>Une navigation complète au clavier, un lien « aller au contenu principal » et un focus visible</li>
+<li>Un texte descriptif pour les images importantes</li>
+<li>Des formulaires avec des étiquettes claires et de simples cases à cocher pour nous dire ce dont vous avez besoin pour participer</li>
+<li>Le respect du réglage « réduire les animations » de votre appareil</li>
+</ul>
+<h2>Ce que nous améliorons encore</h2>
+<p>Nous prévoyons d’ajouter de courtes vidéos en langue des signes marocaine pour les pages clés. Les enregistrements des conférences en ligne sont partagés avec sous-titres et transcriptions.</p>
+<h2>Signalez-nous un obstacle</h2>
+<p>Si quelque chose sur ce site est difficile à utiliser, écrivez à <a href="mailto:info@globalpremiumevents.com?subject=Accessibility%20feedback">info@globalpremiumevents.com</a> ou appelez le <a href="tel:+212653512995">+212 653512995</a>. Nous répondrons sous cinq jours ouvrables et vous fournirons l’information dans un autre format si besoin.</p>
+<p style="color:var(--muted)">Dernière révision : octobre 2026.</p>
+</div></section>
+</main>
+<footer class="site-foot">
+<div class="wrap">
+<div class="foot-grid">
+<div>
+<a aria-label="Global Inclusive Events, accueil" class="brand brand-full" href="/fr/"><span class="fw">Global <em>Inclusive</em> Events</span><span class="fw-tag">Une initiative de Global Premium Events</span></a>
+<p>Des événements et programmes accessibles, inclusifs et intergénérationnels, au Maroc et en Afrique. Une initiative de <a href="https://globalpremiumevents.com">Global Premium Events</a>, née d’un partenariat avec la Kelley School of Business de l’Indiana University.</p>
+</div>
+<nav aria-label="Programmes"><h2>Programmes</h2><ul>
+<li><a href="/fr/programs/accessibility/">Accessibilité</a></li>
+<li><a href="/fr/programs/women-empowerment/">Autonomisation des femmes</a></li>
+<li><a href="/fr/programs/digital-inclusion/">Inclusion numérique</a></li>
+<li><a href="/fr/learn/">Ateliers &amp; conférences en ligne</a></li>
+</ul></nav>
+<nav aria-label="Organisation"><h2>Organisation</h2><ul>
+<li><a href="/fr/for-organizations/">Pour les organisations</a></li>
+<li><a href="/fr/impact/">Impact &amp; origines</a></li>
+<li><a href="/fr/get-involved/">S’engager</a></li>
+<li><a href="/fr/contact/">Contact</a></li>
+</ul></nav>
+<div><h2>Contact</h2><ul>
+<li><a href="mailto:info@globalpremiumevents.com">info@globalpremiumevents.com</a></li>
+<li><a href="tel:+212653512995">+212 653512995</a></li>
+<li><a href="https://wa.me/212653512995" rel="noopener" target="_blank">WhatsApp</a></li>
+<li>Rabat, Maroc</li>
+</ul></div>
+</div>
+<div class="foot-bottom"><span>© 2026 Global Inclusive Events · Une initiative de Global Premium Events</span> <span><a href="/fr/accessibility/">Déclaration d’accessibilité</a> · <a href="/fr/privacy/">Confidentialité</a></span></div>
+</div>
+<a aria-label="Écrivez-nous sur WhatsApp (ouvre WhatsApp)" class="wa-float" href="https://wa.me/212653512995" rel="noopener" target="_blank"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.2c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.3 1.3-4-.3-.4a10.4 10.4 0 0 1-1.6-5.6C5.5 9.9 10.2 5.3 16 5.3s10.5 4.6 10.5 10.4S21.8 26.2 16 26.2zm5.8-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1 1-1 2.5 1.1 2.9 1.2 3.1 2.1 3.3 5.2 4.6c1.9.8 2.7.9 3.6.7.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.2-.2-.5-.4z" fill="currentColor"></path></svg><span>WhatsApp</span></a>
+</footer>
+</body>
+</html>
